@@ -6,6 +6,4 @@ package com.pro.ishta.kaycomm;
 public class test {
 
     // i am mnish c9de
-
-    //i m namrata code
 }
