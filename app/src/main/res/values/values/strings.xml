@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Kaycomm</string>
+
+    <string name="todays_visit">Todays Visit</string>
+    <string name="feedback">Feedback</string>
+    <string name="upload">Upload</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

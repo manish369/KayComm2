@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/form_shape"
+    android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Username"
+            android:background="@drawable/edittext_shape"
+            android:drawableLeft="@mipmap/username"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/txt_username"
+            android:textColor="@android:color/black"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:background="@drawable/edittext_shape"
+            android:drawableLeft="@mipmap/pass"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/txt_pass"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+
+            />
+
+        <TextView
+            android:id="@+id/txt_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Forgot Your Password ?"
+            android:textColor="@android:color/black"
+            android:textSize="15dp">
+        </TextView>
+
+        <Switch
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Remember Me"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:thumb="@mipmap/thumb"
+            android:track="@mipmap/track"
+            android:id="@+id/switch1"
+            android:checked="true"
+            android:textOn=""
+            android:textOff=""
+            />
+        
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:id="@+id/btn_login"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Login"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:clickable="true"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:id="@+id/btn_register"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>
